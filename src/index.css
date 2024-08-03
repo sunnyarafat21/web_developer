@@ -13,6 +13,7 @@
     background-image: linear-gradient(#ad1deb, #6e72fc);
 }
 html {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
