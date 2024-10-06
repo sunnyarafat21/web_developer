@@ -23,7 +23,7 @@ export default function Home() {
                         }}
                         className=" text-center text-white font-bold text-3xl md:text-4xl lg:text-5xl p-2  "
                     >
-                        Hello👋
+                        Assala-moalaikom👋
                     </motion.p>
                     <motion.p
                         initial={{ opacity: 0, x: -500 }}

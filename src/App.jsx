@@ -15,9 +15,7 @@ import Skills from './Pages/Skills';
 export default function App() {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
-        setTimeout(() => {
-            setIsLoading(false);
-        }, 2000);
+        setIsLoading(false);
     }, []);
 
     if (isLoading) {
@@ -58,7 +56,7 @@ export default function App() {
                         </Routes>
                     </div>
                 </div>
-                <div className=" h-28    fixed bottom-0 left-[50%] right-[50%]  flex max-h-[100px]  justify-center items-center">
+                <div className=" h-28  fixed bottom-0 left-[50%] right-[50%]  flex max-h-[100px]  justify-center items-center">
                     <Navbar />
                 </div>
             </>

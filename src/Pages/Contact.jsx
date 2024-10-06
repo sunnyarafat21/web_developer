@@ -1,14 +1,12 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import { IoIosSend } from 'react-icons/io';
-
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import { IoLogoWhatsapp } from 'react-icons/io';
+import { IoIosSend, IoLogoWhatsapp } from 'react-icons/io';
 import { MdMarkEmailUnread } from 'react-icons/md';
 export default function Contact() {
     return (
         <div className=" p-10">
-            <section className=" w-[20rem]  md:w-[45rem] lg:w-[55rem] grid  gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-6  drop-shadow-sm hover:drop-shadow-lg bg-opacity-60 backdrop-filter backdrop-blur-lg hover:backdrop-blur-md rounded-lg bg-white/10 hover:bg-white/20  border-solid border-2 border-whtie-500">
+            <section className=" w-[20rem]  md:w-[45rem] lg:w-[55rem] grid  gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-6  drop-shadow-sm md:hover:drop-shadow-lg bg-opacity-60 backdrop-filter backdrop-blur-lg md:hover:backdrop-blur-md rounded-lg bg-white/10 hover:bg-white/20  border-solid border-2 border-whtie-500">
                 <motion.div
                     initial={{
                         x: -500,
@@ -37,7 +35,7 @@ export default function Contact() {
 
                     <div className=" grid grid-cols-1 justify-center items-start">
                         <div className="py-1 flex  ">
-                            <div className="w-20 md:w-24 lg:w-26 h-10 md:h-12 lg:h-14 flex p-1 justify-center border-l-2 border-slate-100  items-center col-span-1 bg-slate-800 bg-opacity-30 drop-shadow-md backdrop-blur-lg ">
+                            <div className="w-20 md:w-24 lg:w-26 h-10 md:h-12 lg:h-14 flex p-1 justify-center border-l-2 border-slate-100/50  items-center col-span-1 bg-slate-800 bg-opacity-30 drop-shadow-md backdrop-blur-lg ">
                                 <MdMarkEmailUnread fontSize={22} className="text-slate-50" />
                             </div>
                             <div className="w-52 text-xs md:text-sm   md:w-56 lg:w-72 h-10 md:h-12 lg:h-14  text-slate-50 flex items-center py-1 px-2 bg-slate-700 bg-opacity-20 drop-shadow-sm backdrop-blur-md ">
